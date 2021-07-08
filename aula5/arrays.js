@@ -25,6 +25,15 @@ console.log(numerosImpares)
 const numerosPares = numeros.filter(numero => numero%2 == 0)
 console.log(numerosPares)
 
+//find
+const produtos = ["geladeira", "fogao", "cama", "mesa"]
+
+const encontraCama = produtos.find(produto => produto === "cama")
+console.log(encontraCama)
+
+const encontraMesa = produtos.find(produto => produto === "mesa")
+console.log(encontraMesa)
+
 //sort
 const numerosOrdemCrescente = numeros.sort()
 console.log(numerosOrdemCrescente)
